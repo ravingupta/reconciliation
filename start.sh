@@ -1,3 +1,4 @@
 #!/bin/bash
 
-source env/bin/activate
+# Change path based on your project location
+source ~/Documents/reconciliation/env/bin/activate
