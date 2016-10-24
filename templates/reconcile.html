@@ -1,6 +1,32 @@
 {% extends "layout.html" %}
 
 {% block content %}
-  <h2> Heading </h2>
-  <p> Perform <a href="/reconcile">Reconcilation</a></p>
+  <h2> Reconciliation </h2>
+	<form action="#">
+		<input type="file" name="Document1" accept="*">
+    <input type="file" name="Document2" accept="*">
+		<input type="submit">
+	</form>
+  <br>
+  <form action="#">
+    Extras: <input type="file" name="extras" multiple>
+    <input type="submit">
+  </form>
+
+  <br><br>
+
+  <div>
+    <center>
+      View Files
+    </center>
+    <br>
+    <div style="width: 100%;">
+      <div style="float:left; width: 45%; margin: 2%;">
+        Document1 khc ef hew jhcrv hjre fg4 gf j4hw efg 4wjr fg4 rfg 4gerjf h4kw fg3 wkhd 23jq dg4bw gfvj3k2 wr32 g  aga2r3 ag43ef n 4hjrfg4b rfg32hw3bf h34w fgb3wved u3w eudfkb3q whdkb2qghvwabdu3 edhj3qbwudhvy23qb d3qbd yqbd3e
+      </div>
+      <div style="float:left; width: 45%; margin: 2%;">
+        Document2 bdhew gfbw4ef 32hwjeduj3b wgegdyu32v4wyfv qu2uwakdb quwhabd hhwbesgvcewvsjkfdw ajkd 3uxqwhb dh3wkem fuq 3whbdj2qbwndb3qbw djb3q gwdbbb3bejnd 3efmnew jv 4wh bbwf bnr f vher n
+      </div>
+    </div>
+  </div>
 {% endblock %}

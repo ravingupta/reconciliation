@@ -7,4 +7,4 @@ reconcile = Blueprint('reconcile', __name__,
 
 @reconcile.route('/')
 def index():
-  return render_template('homepage.html')
+  return render_template('reconcile.html')

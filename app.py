@@ -7,7 +7,7 @@ from controllers.reconcile import reconcile
 
 
 app = Flask(__name__)
-app.config.from_object(os.environ['APP_SETTINGS'])
+app.config.from_object('config.DevelopmentConfig')
 
 Bootstrap(app)
 
